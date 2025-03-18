@@ -131,7 +131,7 @@ st.title(":rainbow[Stock :green[Technical] :red[Analysis] & :blue[Forecast]]")
 
 # Sidebar
 with st.sidebar:
-    st.image("logo.jpg", width=200)
+    st.image("DIAGRAM/logo.jpg", width=200)
     st.header("Stock Analysis")
     selected_stock = st.selectbox('Select Stock Symbol', stocks)
     timeframe_option = st.selectbox("Select Timeframe", ('1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y'))
